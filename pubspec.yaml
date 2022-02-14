@@ -31,7 +31,7 @@ dependencies:
   curved_navigation_bar: ^1.0.3
   flutter:
     sdk: flutter
-  get: ^4.6.1
+  flutter_bloc: ^8.0.1
   http: ^0.13.4
   shimmer: ^2.0.0
 
@@ -77,10 +77,9 @@ flutter:
           weight: 600
         - asset: assets/fonts/Inter-Bold.ttf
           weight: 700
-        - asset: assets/fonts/Inter-Extra-Bold.ttf
+        - asset: assets/fonts/Inter-ExtraBold.ttf
           weight: 800
         - asset: assets/fonts/Inter-Black.ttf
           weight: 900
-  #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
