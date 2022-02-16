@@ -6,5 +6,5 @@ import 'package:flutter_movie/widgets/widgets.dart';
 
 part 'main_page.dart';
 part 'home_page.dart';
-part 'ticket_page.dart';
+part 'favorite_page.dart';
 part 'profile_page.dart';

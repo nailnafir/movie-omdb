@@ -32,7 +32,7 @@ class _MainPageState extends State<MainPage> {
           },
           children: const [
             HomePage(),
-            TicketPage(),
+            FavoritePage(),
             ProfilePage(),
           ],
         ),
@@ -45,7 +45,7 @@ class _MainPageState extends State<MainPage> {
             color: Colors.white.withOpacity(0.8),
           ),
           Icon(
-            Icons.article,
+            Icons.favorite,
             size: 30,
             color: Colors.white.withOpacity(0.8),
           ),
@@ -62,9 +62,7 @@ class _MainPageState extends State<MainPage> {
         onTap: (index) {
           setState(() {
             _selectedPage = index;
-            _pageController.animateToPage(index,
-                curve: Curves.easeInOut,
-                duration: const Duration(milliseconds: 500));
+            _pageController.jumpToPage(index);
           });
         },
       ),

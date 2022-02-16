@@ -1,7 +1,7 @@
 part of 'pages.dart';
 
-class TicketPage extends StatelessWidget {
-  const TicketPage({Key? key}) : super(key: key);
+class FavoritePage extends StatelessWidget {
+  const FavoritePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
