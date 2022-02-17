@@ -5,6 +5,7 @@ import 'package:flutter_movie/models/models.dart';
 import 'package:flutter_movie/services/services.dart';
 import 'package:flutter_movie/utilities/utilities.dart';
 import 'package:flutter_movie/widgets/widgets.dart';
+import 'package:shimmer/shimmer.dart';
 
 part 'main_page.dart';
 part 'home_page.dart';

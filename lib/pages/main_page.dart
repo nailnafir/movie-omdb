@@ -31,7 +31,7 @@ class _MainPageState extends State<MainPage> {
             });
           },
           children: const [
-            HomePage(),
+            MovieDetailPage(),
             FavoritePage(),
             ProfilePage(),
           ],
